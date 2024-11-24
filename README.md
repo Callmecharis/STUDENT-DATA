@@ -20,7 +20,20 @@ The primary source of the data is gotten from ms excel and this an open source d
 https://www.kaggle.com/datasets/satayjit/student-performance-bd
 
 ## DATA ANALYSIS
-In the cause of the analysis, In summary, data analysis of open-source information is a powerful tool that can facilitate knowledge, promote transparency, and encourage shared progress. By engaging with these datasets. In analysis the data we able to deduce the cause of attrition, rate of attrition several measure as well as Dax function are used to generate the rate of attrition in the company, the department with the highest attrition rate, attrition by age-band, attrition by gender.
+In the cause of the analysis, In summary, data analysis of open-source information is a powerful tool that can facilitate knowledge, promote transparency, and encourage shared progress. By engaging with these datasets. In analysising the data we able to deduce the following using excel functions
+AVERAGE SCORE	370.7741523 =AVERAGE(Z2:Z8613)
+HIGHEST SCORE	489 =MAX(Z2:Z8613)
+LOWEST SCORE	220 =MIN(Z2:Z8613)
+TOTAL NUMBER OF STUDENTS	8612 =COUNTA(B2:B8613)
+NUMBER OF STUDENTS IN PRIVATE 	2394 =COUNTIF(P2:P8613,P2)
+NUMBER OF STUDENTS IN  SEMI GOVT 	3067 =COUNTIF(P2:P8613,P3)
+NUMBER OF STUDENTS IN GOVT	3151 =COUNTIF(P2:P8613,P4)
+SCIENCE STUDENT WITH THE HIGHESTBSCORE	489 =MAXIFS(Z2:Z8613,X2:X8613,X2)
+ARTS STUDENT WITH THE HIGHEST SCORE	434 = MAXIFS(Z2:Z8613,X2:X8613,X12)
+COMMERCE STUDENT WITH THE HIGHEST SCORE	416 =MAXIFS(Z2:Z8613,X2:X8613,X3)
+Students Total Score =SUM(S2,T2,U2,V2,W2,)
+![image](https://github.com/user-attachments/assets/57fb07b5-db3a-47b6-8d3c-eff120276f42)
+
 
 ## EXPLORATORY DATA (EDA)
 a data analysis method that uses visual displays and statistical tools to explore data sets for patterns, relationships, and anomalies. The goal of EDA is to learn about the data, rather than to confirm a hypothesis. EDA is an iterative process that involves: Data collection and cleaning Visualizing data Identifying patterns and anomalies Generating hypotheses EDA involved the exploring of the data with visualisation on Power BI to answer some questions about the data such as;The data can be used to analyze student performance, explore factors affecting academic outcomes, and provide insights to help students choose suitable educational paths. student performance can be evcaluated based on several that affects student performance factors such as; location, parental involvement, internet access, guardian, study time, tutoring, school types, attendance, extra curicular etc.
