@@ -50,7 +50,6 @@ vii. sum of total score by student group
 viii. sum of student performance by internet access and gender
 ix
 student performance rate by study time
-```
 ## CONCLUSION
 The dataset is useful in educational research, machine learning projects, and statistical analysis to identify trends and actionable insights for improving student performance success
 we can deduce that with adequate study time, parental involvement and tutoring a student tends to have a better performance.student with internet access performance better to those without internet access. Male student perform better than female students.•	Assisting to identify the best-fit academic group (Science, Commerce, Arts) for students based on their performance.
